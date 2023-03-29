@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  text-align: center;
+  background-color: burlywood;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 6rem;
+  gap: 50px;
+}
+
+#quote {
+  min-height: 100px;
+  background: red;
+}
+
+button,
+select {
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: gold;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+select,
+button:hover {
+  background: greenyellow;
+  color: purple;
+}
+
+select {
+  -ms-layout-grid: mode;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
